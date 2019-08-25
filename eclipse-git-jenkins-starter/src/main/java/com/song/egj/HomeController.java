@@ -36,7 +36,7 @@ public class HomeController {
 		return "second_page";
 	}
 	
-	@RequestMapping(value = "/second", method = RequestMethod.GET)
+	@RequestMapping(value = "/first", method = RequestMethod.GET)
 	public String seoncd(Locale locale, Model model) {
 		logger.info("Welcome home! The client locale is {}.", locale);
 		
